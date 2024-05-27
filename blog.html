@@ -13,14 +13,131 @@
     />
     <!-- swiper css link here  -->
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./business.css" />
     <!-- Custom Css Link Here  -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    
   </head>
   <body>
-    
-
-
-
+    <div class="swiper a2n-blog_slider">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides #1 -->
+        <div class="swiper-slide">
+          <!-- a2n blog card start  -->
+          <div class="a2n-blog_card">
+            <div class="blog_thumb">
+              <a href="#">
+                <img
+                  decoding="async"
+                  src="https://www.victoriaeducation.co.uk/wp-content/uploads/2024/05/IMAGE-7.webp"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="a2n-blog_contents">
+              <div class="blog_title">
+                <h2>
+                  <a href="#">
+                    Can Quality Copywriting Affect Your Business Strategy?
+                  </a>
+                </h2>
+              </div>
+              <div class="a2n_blog_btn">
+                <a href="#">Read Article</a>
+              </div>
+            </div>
+          </div>
+          <!-- a2n blog card end  -->
+        </div>
+        <!-- Slides #2 -->
+        <div class="swiper-slide">
+          <!-- a2n blog card start  -->
+          <div class="a2n-blog_card">
+            <div class="blog_thumb">
+              <a href="#">
+                <img
+                  decoding="async"
+                  src="https://www.victoriaeducation.co.uk/wp-content/uploads/2024/05/IMAGE-7.webp"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="a2n-blog_contents">
+              <div class="blog_title">
+                <h2>
+                  <a href="#">
+                    Can Quality Copywriting Affect Your Business Strategy?
+                  </a>
+                </h2>
+              </div>
+              <div class="a2n_blog_btn">
+                <a href="#">Read Article</a>
+              </div>
+            </div>
+          </div>
+          <!-- a2n blog card end  -->
+        </div>
+        <!-- Slides #3 -->
+        <div class="swiper-slide">
+          <!-- a2n blog card start  -->
+          <div class="a2n-blog_card">
+            <div class="blog_thumb">
+              <a href="#">
+                <img
+                  decoding="async"
+                  src="https://www.victoriaeducation.co.uk/wp-content/uploads/2024/05/IMAGE-7.webp"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="a2n-blog_contents">
+              <div class="blog_title">
+                <h2>
+                  <a href="#">
+                    Can Quality Copywriting Affect Your Business Strategy?
+                  </a>
+                </h2>
+              </div>
+              <div class="a2n_blog_btn">
+                <a href="#">Read Article</a>
+              </div>
+            </div>
+          </div>
+          <!-- a2n blog card end  -->
+        </div>
+        <!-- Slides #4 -->
+        <div class="swiper-slide">
+          <!-- a2n blog card start  -->
+          <div class="a2n-blog_card">
+            <div class="blog_thumb">
+              <a href="#">
+                <img
+                  decoding="async"
+                  src="https://www.victoriaeducation.co.uk/wp-content/uploads/2024/05/IMAGE-7.webp"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="a2n-blog_contents">
+              <div class="blog_title">
+                <h2>
+                  <a href="#">
+                    Can Quality Copywriting Affect Your Business Strategy?
+                  </a>
+                </h2>
+              </div>
+              <div class="a2n_blog_btn">
+                <a href="#">Read Article</a>
+              </div>
+            </div>
+          </div>
+          <!-- a2n blog card end  -->
+        </div>
+      </div>
+      <!-- pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
 
     <!-- Jquery links Here  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -31,5 +148,29 @@
       src="https://kit.fontawesome.com/0793d75093.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      var mSwiper = new Swiper(".a2n-blog_slider", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        speed: 300,
+        grabCursor: true,
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          576: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          820: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
