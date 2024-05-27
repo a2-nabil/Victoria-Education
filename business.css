@@ -1,0 +1,334 @@
+/* common css start  */
+#content .container {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.wp-block-columns {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.a2n-section_area {
+  justify-content: center !important;
+  padding: 100px 15px;
+}
+.a2n_section_title {
+  color: #000;
+  text-align: center;
+  font-family: "Varela Round";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38.065px;
+  margin: 22px 0;
+}
+.a2n_section_desc {
+  color: #3d3d3d;
+  text-align: center;
+  font-family: "Varela", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.452px;
+  margin: 0;
+}
+.a2n_courses_btn a {
+  border-radius: 3px;
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+  text-align: center;
+  font-family: "Varela", sans-serif;
+  font-size: 16.495px;
+  font-weight: 400;
+  padding: 10px 30px;
+}
+.a2n_courses_btn a:hover {
+  background: transparent;
+  color: #000;
+}
+/* common css end  */
+/* hero area css start */
+.a2n-hero_area {
+  padding: 0px 15px;
+  margin: 30px 0 0;
+  background: url("https://www.victoriaeducation.co.uk/wp-content/uploads/2024/05/Group-1000016210.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.a2n-hero_area > .wp-block-column {
+  margin: 58px 0;
+  padding: 37px 62px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+.a2n_head_title {
+  margin: 0;
+  color: #fff;
+  font-family: "Varela Round", sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 78px;
+}
+.a2n_sub_hero_title {
+  margin: 35px 0 15px;
+  color: #fff;
+  font-family: "Varela", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+.a2n_head_title span {
+  color: #fad79d;
+}
+.a2n_head_title font {
+  background: rgba(255, 255, 255, 0.08);
+}
+.a2n_hero_list {
+  list-style: url("https://www.victoriaeducation.co.uk/wp-content/uploads/2024/05/Vector-4.webp");
+  margin: 0;
+  list-style-position: inside;
+}
+.a2n_hero_list li {
+  color: #fff;
+  font-family: "Varela", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+@media (max-width: 991px) {
+  .a2n-hero_area > .wp-block-column {
+    padding: 15px;
+  }
+}
+/* hero area css end  */
+/* gform css start  */
+@media (min-width: 600px) {
+  .a2n_quote_form .gform_wrapper {
+    margin: 0;
+    margin-left: auto;
+    max-width: 430px;
+    width: 100%;
+  }
+}
+.a2n_quote_form .gform_wrapper .gform_title {
+  color: #fff;
+  text-align: center;
+  font-family: "Varela", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 0 10px;
+}
+.a2n_quote_form .gform_wrapper .gform_heading {
+  margin-bottom: 0;
+}
+.a2n_quote_form .gform_wrapper .top_label div.ginput_container {
+  margin: 0;
+}
+.a2n_quote_form .gform_wrapper .gform_fields .gfield_label {
+  margin-bottom: 4.57px;
+  color: #fff;
+  font-family: "Varela", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20.8px;
+}
+.a2n_quote_form .gform_wrapper ul.gform_fields li.gfield {
+  padding: 0;
+  margin: 5px 0 0;
+}
+.a2n_quote_form .gform_fields .gfield_required {
+  color: #ff3a0f;
+}
+.a2n_quote_form .gform_fields .gfield input.large {
+  border-radius: 5px;
+  background: #efefef;
+  height: 54.877px;
+  font-family: "Varela", sans-serif;
+  font-size: 13px !important;
+  font-weight: 400;
+  line-height: 20.8px;
+  padding: 10px !important;
+  color: #000;
+}
+.a2n_quote_form .gform_fields .gfield textarea {
+  border-radius: 5px;
+  background: #efefef;
+  height: 124px !important;
+  font-family: "Varela", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20.8px;
+  padding: 10px !important;
+  color: #000;
+}
+.a2n_quote_form .a2n_call_us h6 {
+  margin: 5px 0 10px;
+  color: #fff;
+  font-family: "Varela", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.a2n_quote_form .a2n_call_us h6 span {
+  font-weight: 600;
+}
+.a2n_quote_form .gform_wrapper .gform_footer {
+  margin: 0;
+  padding: 0;
+}
+.a2n_quote_form .gform_wrapper .gform_footer input.button {
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: "Varela", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: normal;
+}
+.a2n_quote_form .gform_wrapper .gform_footer input.button:hover {
+  background: #fff;
+  color: #000;
+}
+/* gform css end  */
+
+/* service area css start  */
+.a2n_service_area {
+  padding: 0 15px;
+}
+.a2n_service_area > .wp-block-column {
+  padding: 0px 15px !important;
+  border-radius: 12px;
+  border: 1.6px solid #dbdbdb;
+  background: #000;
+}
+.a2n_service_area > .wp-block-column .wp-block-columns {
+  max-width: 1180px;
+  width: 100%;
+  margin: 120px auto;
+}
+.a2n_service_area .wp-block-image {
+  margin: 0;
+}
+.a2n_hr {
+  width: 140px;
+  height: 3px;
+  border-radius: 1.5px;
+  border: none;
+}
+.a2n_hr:not(.aligncenter) {
+  margin: 0;
+}
+.a2n_service_area h2 {
+  color: #fff;
+  font-family: "Varela Round", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 57px;
+  margin: 11px 0;
+}
+.a2n_service_area p {
+  margin: 0 0 15px;
+  color: #fff;
+  font-family: "Varela", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+.a2n_service_area .wp-block-button {
+  margin: 15px 0 0;
+}
+.a2n_service_area .wp-block-button a {
+  padding: 10px 30px;
+  border-radius: 3px;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  font-family: "Varela", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  border: 1px solid #fff;
+}
+.a2n_service_area .wp-block-button a:hover {
+  background: transparent;
+  color: #fff;
+}
+@media (min-width: 600px) {
+  .a2n_service_area .wp-block-column:not(:first-child) {
+    margin-left: -5px !important;
+  }
+  .a2n_service_area .a2n_service_center .wp-block-column:not(:first-child) {
+    margin-left: 0px !important;
+  }
+  .a2n_service_area .wp-block-image {
+    margin: 0 15px 0 0;
+  }
+}
+@media (max-width: 599px) {
+  .a2n_service_area .wp-block-image {
+    text-align: center !important;
+    margin: 0 0 35px;
+  }
+  .a2n_service_area .wp-block-image .alignright {
+    float: none;
+    text-align: center;
+    margin: 35px 0 0;
+  }
+}
+/* service area end  */
+/* faq area css start  */
+.a2n_faq_area .panel {
+  margin: 0 !important;
+  border: 0 !important;
+}
+.a2n_faq_area .panel {
+  border-bottom: 1px solid #D4D4D4 !important;
+}
+.a2n_faq_area .panel-heading {
+  padding: 0;
+  border: 0 !important;
+  background: transparent;
+}
+.a2n_faq_area .panel-body {
+  border: 0 !important;
+  font-family: "Varela", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 32px 32px 32px !important;
+}
+.panel-heading a {
+  color: #3d3d3d !important;
+  font-family: "Varela", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  padding: 32px;
+}
+.panel-heading a::after {
+  content: "+";
+  display: inline-block;
+  padding: 5px;
+  position: absolute;
+  right: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #513f4a;
+  font-size: 24px;
+  font-weight: 300;
+}
+.panel-heading a[aria-expanded="true"]::after {
+  content: "-";
+}
+/* faq area css end  */
